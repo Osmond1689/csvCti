@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "csv-cti"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.11"
+sqlalchemy = "^2.0.38"
+pydantic-settings = "^2.8.1"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
